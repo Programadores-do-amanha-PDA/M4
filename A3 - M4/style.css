@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  font-family: "Lato", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  width: 500px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.busca {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+#btn-buscar {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffd633;
+}
+
+#pokemon {
+  margin-top: 20px;
+}
+
+#pokemon img {
+  width: 120px;
+  margin: 10px 0;
+}
+
+#pokemon p {
+  margin: 6px 0;
+}
