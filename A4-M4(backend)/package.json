@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "projeto teste da aula 5 do Módulo 4",
   "main": "index.js",
-
   "scripts": {
     "start": "node index.js"
   },
