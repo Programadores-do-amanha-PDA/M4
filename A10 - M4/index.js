@@ -13,3 +13,5 @@ app.use('/avaliacoes', rotasAvaliacoes); // 👈 nova rota
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
+
+// localhost:3000/produtos/deletar-produtos/1
