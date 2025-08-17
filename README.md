@@ -24,7 +24,6 @@ Este projeto segue a arquitetura **Model-View-Controller (MVC)**:
  ┃ ┣ 📂 views         # (opcional) Renderização ou respostas
  ┃ ┗ 📜 app.js        # Arquivo principal
  ┣ 📜 package.json
- ┣ 📜 .env
  ┗ 📜 README.md
 ```
 ---
